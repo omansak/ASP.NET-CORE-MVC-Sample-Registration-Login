@@ -7,11 +7,13 @@ C# Asp.Net Core 2.0 MVC Sample Registration/Login/Email Activation Form with MsS
 * AES Encryption
 * Password SHA256 Encode
 * Send Email
+* Claim Based Authorization
 * Tokens
 * Entity Framework
 * Onion Architecture
 * Bootstrap
 * ASP.NET CORE 2.0 MVC
+
 
 ##### Files
 ![ASP.NET-CORE-MVC-Sample-Registration-Login](https://github.com/omansak/ASP.NET-CORE-MVC-Sample-Registration-Login-/blob/master/Images/Sol.PNG "Main")

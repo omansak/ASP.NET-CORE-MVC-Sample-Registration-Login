@@ -1,0 +1,122 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+<script src="script/bootstrap.min.js"></script>
+<script src="script/jquery-1.10.2.min.js"></script>
+<style>
+    body {
+        background-image: url('/images/bg/bg.jpg');
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #cccccc;
+    }
+
+    .centered-form {
+        margin-top: 60px;
+    }
+
+        .centered-form .panel {
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+        }
+</style>
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Crypto Box</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a>BTC : N/A</a></li>
+                <li><a>LTC : N/A</a></li>
+                <li><a>ZZZ : N/A</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row centered-form" style="margin-top: 150px;">
+        @if (TempData["message"] != null)
+        {
+            string alertType = "alert alert-" + TempData["alertType"];
+            <div class="@alertType">
+                <strong>Alert!</strong> @TempData["message"]
+            </div>
+        }
+        <div class="col-md-6">
+            <div>
+                <h1 style="color: aliceblue">LOGIN</h1>
+            </div>
+            <blockquote style="color: #fff;">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at elementum tortor. Mauris ex risus, tristique sit amet tincidunt in, iaculis ac eros.
+                </p>
+            </blockquote>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        Log-in
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <form role="form" asp-action="Login" asp-controller="Home" method="post">
+                        <div class="form-group">
+                            <input type="email" name="Email" class="form-control input-sm" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="Password" class="form-control input-sm" placeholder="Password">
+                        </div>
+                        <input type="submit" value="Login" class="btn btn-info btn-block">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        Please sign up for Cryto-Box <small>It's free!</small>
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <form role="form" asp-action="Register" asp-controller="Home" method="post">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="Name" class="form-control input-sm" placeholder="First Name">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="Surname" class="form-control input-sm" placeholder="Last Name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="Email" class="form-control input-sm" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="Password" class="form-control input-sm" placeholder="Password">
+                        </div>
+                        <input type="submit" value="Register" class="btn btn-info btn-block">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div>
+                <div>
+                    <h1 style="color: aliceblue">REGISTER</h1>
+                </div>
+                <blockquote style="color: #fff;">
+                    <p>
+                        Duis ac fermentum arcu, at tristique odio. Donec at quam lacus. Aliquam euismod nec lectus ut gravida. Nullam et vehicula purus.
+                    </p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</div>

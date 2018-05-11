@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Crypto-Box.Data\CryptoBox.Data.csproj" />
+    <ProjectReference Include="..\Crypto-Box.Repo\CryptoBox.Repo.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -5,6 +5,7 @@ C# Asp.Net Core 2.0 MVC Sample Registration/Login/Email Activation Form with MsS
 * Login
 * Activation Account
 * AES Encryption
+* Password SHA256 Encode
 * Send Email
 * Tokens
 * Entity Framework

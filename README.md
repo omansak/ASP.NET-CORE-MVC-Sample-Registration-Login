@@ -13,7 +13,7 @@ C# Asp.Net Core 2.0 MVC Sample Registration/Login/Email Activation Form with MsS
 * ASP.NET CORE 2.0 MVC
 
 ##### Files
-![ASP.NET-CORE-MVC-Sample-Registration-Login](https://github.com/omansak/Spring-MVC-Sample-Registration-MsSQL/blob/master/Images/1.PNG "Main")
+![ASP.NET-CORE-MVC-Sample-Registration-Login]https://github.com/omansak/ASP.NET-CORE-MVC-Sample-Registration-Login-/blob/master/Images/Sol.PNG "Main")
 
 ##### OMANSAK
 

@@ -1,4 +1,6 @@
 # ASP.NET-CORE-MVC-Sample-Registration-Login
+This repository is designed for educational purposes. 
+Include :
 C# Asp.Net Core 2.0 MVC Sample Registration/Login/Email Activation Form with MsSQL Server/Entity Framework/Onion Architecture
 #### Features
 * Register

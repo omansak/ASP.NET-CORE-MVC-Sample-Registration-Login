@@ -14,7 +14,7 @@ C# Asp.Net Core 2.0 MVC Sample Registration/Login/Email Activation Form with MsS
 * Entity Framework
 * Onion Architecture
 * Bootstrap
-* ASP.NET CORE 2.0 MVC
+* ASP.NET CORE 2.2 MVC
 
 
 ##### Files
